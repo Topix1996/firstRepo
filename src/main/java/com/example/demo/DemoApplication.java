@@ -1,6 +1,7 @@
 package com.example.demo;
 
 import com.example.demo.listLearning.ListLearningStart;
+import com.example.demo.primitiveTypes.PrimitiveTypes;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -15,7 +16,9 @@ public class DemoApplication {
         System.out.println("HERE I GO again!");
         System.out.println("HERE I GO again!");
         ListLearningStart listLearningStart = new ListLearningStart();
-
+        PrimitiveTypes pm = new PrimitiveTypes();
         ArrayList test = listLearningStart.getArrayList();
+        Long sum = pm.calcTotal();
+        System.out.println(sum);
     }
 }
