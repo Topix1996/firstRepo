@@ -10,6 +10,5 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
         System.out.println("HERE I GO!");
         System.out.println("HERE I GO again!");
-        System.out.println("HERE I GO and again!");
     }
 }
